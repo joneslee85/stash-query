@@ -11,7 +11,7 @@ require 'progress_bar'
 module Stashquery
   class Query
 
-  DEFAULT_FIELD = "message"
+  DEFAULT_FIELD = 'message'.freeze
   $debug = nil
   $flush_buffer = 1000 ## Number of log lines to flush to file at
   $new_transport = true
